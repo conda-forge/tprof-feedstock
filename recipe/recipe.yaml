@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.0"
+  version: "1.2.0"
 
 package:
   name: tprof
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tprof/tprof-${{ version }}.tar.gz
-  sha256: c5d9f7cbf1360da99ac62d570ea40f978b9c4abdabee1cc98f5c9b7862e2e3f4
+  sha256: 4e6af4b61006dc4f52c84f7b51cb5355533b42eea16908669c3ea671450f9b0e
 
 build:
   number: 0
