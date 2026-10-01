@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.3.0"
+  version: "1.4.0"
 
 package:
   name: tprof
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tprof/tprof-${{ version }}.tar.gz
-  sha256: e0679497453ad07792777fb28819935a7897dcd9a094fd81930bde187039da64
+  sha256: cacfb2330d6ea3b9173cdc0242ac7530801e060d8d5aaf1bb94ea62e7cf00a4d
 
 build:
-  number: 1
+  number: 0
   skip: match(python, "<3.12")
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
